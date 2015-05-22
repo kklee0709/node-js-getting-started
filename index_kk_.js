@@ -7,14 +7,14 @@ app.use(express.static(__dirname + '/public'));
 
 // A face
 app.get('/', function(request, response) {
-  console.log("app.get('/' called");
+  console.log("app.get('/' for a face called");
 
   response.send(cool());
 });
 
 // More faces
 app.get('/more', function(request, response) {
-  console.log("app.get('/more' called");
+  console.log("app.get('/more' for more faces called");
 
   var result = ''
   var times = process.env.TIMES || 5
