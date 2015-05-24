@@ -51,6 +51,7 @@ $ heroku releases
 $ heroku logs
 ```
 
+-----------------------
 ## View logs
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs
 ```
@@ -69,7 +70,6 @@ https://devcenter.heroku.com/articles/getting-started-with-nodejs#start-a-consol
 $ heroku run node
 $ heroku run bash
 ```
-
 -----------------------
 Now start your application locally using Foreman, which was installed as part of the Toolbelt: Just like Heroku, Foreman examines the Procfile to determine what to run.
 
@@ -80,17 +80,7 @@ $ foreman start web
 -----------------------
 Now deploy. Almost every deploy to Heroku follows this same pattern. First, add the modified files to the local git repository:
 ```
-$ git add .
-```
-Now commit the changes to the repository:
-
-$ git commit -m "Demo"
-
-Now deploy, just as you did previously:
-
 $ git push heroku master
-
-Finally, check that everything is working:
-
 $ heroku open
+```
 -----------------------
