@@ -9,13 +9,14 @@
 ## Running Locally
 ```
 $ foreman start web
-```
 OR
-```
 node index_kk_.js
 ```
+```
+
 - http://localhost:5000/
 - http://localhost:5000/more
+```
 
 ## Deploy the app
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
@@ -68,27 +69,25 @@ $ heroku addons
 $ heroku releases
 $ heroku logs
 ```
-=======
+```
 heroku login
 git add .
 git commit -m "Demo"
 git push heroku master
 heroku open
+```
 
 # Start a console
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#start-a-console
+```
 heroku run node
 heroku run bash
+```
 
-heroku open
-https://node-test-kk-.herokuapp.com/
-https://node-test-kk-.herokuapp.com/more
-
-
-# Creating Apps from the CLI
-# https://devcenter.heroku.com/articles/creating-apps
-# Renaming Apps from the CLI
-# https://devcenter.heroku.com/articles/renaming-apps
+# Creating/Renaming Apps from the CLI
+- https://devcenter.heroku.com/articles/creating-apps
+- https://devcenter.heroku.com/articles/renaming-apps
+```
 heroku apps:rename newname
 heroku apps:rename node-test-kk-
 
@@ -97,9 +96,7 @@ heroku config:set TIMES=2
 heroku addons
 heroku releases
 heroku logs
-
->>>>>>> e2adafd5f26cb7322311326c924825b65a772b6a
-
+```
 
 -----------------------
 Now start your application locally using Foreman, which was installed as part of the Toolbelt: Just like Heroku, Foreman examines the Procfile to determine what to run.
