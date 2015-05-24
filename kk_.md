@@ -13,7 +13,6 @@ OR
 node index_kk_.js
 ```
 ```
-
 - http://localhost:5000/
 - http://localhost:5000/more
 ```
@@ -55,10 +54,9 @@ $ heroku run node
 $ heroku run bash
 ```
 
-## Creating Apps from the CLI
-https://devcenter.heroku.com/articles/creating-apps
-## Renaming Apps from the CLI
-https://devcenter.heroku.com/articles/renaming-apps
+## Creating/Renaming Apps from the CLI
+- https://devcenter.heroku.com/articles/creating-apps
+- https://devcenter.heroku.com/articles/renaming-apps
 ```
 $ heroku apps:rename newname
 $ heroku apps:rename node-test-kk-
