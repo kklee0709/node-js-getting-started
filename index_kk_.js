@@ -7,20 +7,20 @@ app.use(express.static(__dirname + '/public'));
 
 // A face
 app.get('/', function(request, response) {
-  console.log("app.get('/' for a face called");
+  console.log("app.get('/' called");
 
-  response.send(cool());
+  response.send('Hello World! '+cool());
 });
 
 // More faces
 app.get('/more', function(request, response) {
-  console.log("app.get('/more' for more faces called");
+  console.log("app.get('/more' called");
 
   var result = ''
   var times = process.env.TIMES || 5
   for (i=0; i < times; i++)
     result += cool();
-  response.send(result);
+  response.send('Hello World! '+result);
 });
 
 // Provision a database
