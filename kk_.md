@@ -74,13 +74,14 @@ $ heroku logs
 Now start your application locally using Foreman, which was installed as part of the Toolbelt: Just like Heroku, Foreman examines the Procfile to determine what to run.
 
 Your app will now be running at localhost:5000. Test that it’s working with curl or a web browser, then Ctrl-C to exit.
-
+```
 $ foreman start web
+```
 -----------------------
 Now deploy. Almost every deploy to Heroku follows this same pattern. First, add the modified files to the local git repository:
-
+```
 $ git add .
-
+```
 Now commit the changes to the repository:
 
 $ git commit -m "Demo"
