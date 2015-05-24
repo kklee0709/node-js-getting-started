@@ -1,25 +1,39 @@
-## https://github.com/heroku/node-js-getting-started
+# node-js-getting-started
+[kklee0709/node-js-getting-started](https://github.com/kklee0709/node-js-getting-started) forked from heroku/node-js-getting-started
 
-# Running Locally
-foreman start web OR node index_kk_.js
-http://localhost:5000/
+## herokuapp
+https://node-js-getting-started-kk-0.herokuapp.com
+https://node-js-getting-started-kk.herokuapp.com
+https://node-js-getting-started-kk.herokuapp.com/more
 
-# Deploy the app
-# https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
+## Running Locally
+```
+$ foreman start web
+```
+OR
+```
+node index_kk_.js
+```
+http://localhost:5000/, http://localhost:5000/more
+
+## Deploy the app
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
+```
 $ heroku create
 $ git push heroku master
 $ heroku open
+```
 
 # View logs
-# https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#view-logs
 $ heroku logs --tail
 
 # Scale the app
-# https://devcenter.heroku.com/articles/getting-started-with-nodejs#scale-the-app
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#scale-the-app
 $ heroku ps
 
 # Push local changes, Deploying to Heroku
-# https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes
 heroku login
 git add .
 git commit -m "Demo"
@@ -27,7 +41,7 @@ git push heroku master
 heroku open
 
 # Start a console
-# https://devcenter.heroku.com/articles/getting-started-with-nodejs#start-a-console
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#start-a-console
 heroku run node
 heroku run bash
 
